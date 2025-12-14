@@ -22,7 +22,7 @@ jobs:
         with:
           version: Qt5.6.3-Windows-x86-MinGW4.9.4-staticFull-20200104
       - name: Setup Go environment
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6.1.0
         with:
             go-version: '1.25.5'
             cache-dependency-path: |
@@ -47,7 +47,7 @@ jobs:
         with:
           version: Qt5.15.7-Windows-x86_64-MinGW8.1.0-staticFull-20221104
       - name: Setup Go environment
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6.1.0
         with:
             go-version: '1.25.5'
             cache-dependency-path: |
@@ -69,7 +69,7 @@ jobs:
         with:
           version: Qt6.7.2-macOS-Universal-AppleClang15.0.0-noFramework-20240621
       - name: Setup Go environment
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6.1.0
         with:
             go-version: '1.25.5'
             cache-dependency-path: |
@@ -100,7 +100,7 @@ jobs:
         with:
           version: Qt6.7.2-macOS-Universal-AppleClang15.0.0-noFramework-20240621
       - name: Setup Go environment
-        uses: actions/setup-go@v5
+        uses: actions/setup-go@v6.1.0
         with:
             go-version: '1.25.5'
             cache-dependency-path: |
