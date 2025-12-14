@@ -92,7 +92,7 @@ jobs:
           cd ./m3u8d-qt.app
           ./Contents/MacOS/m3u8d-qt test-startup
   build-macos-x64:
-    runs-on: macos-15-intel
+    runs-on: macos-latest-large
     steps:
       - uses: actions/checkout@v6.0.1
       - name: install qt
